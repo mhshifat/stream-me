@@ -1,0 +1,19 @@
+{
+	"name": "stream-me",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"build": "yarn workspace @stream-me/app run build",
+		"start": "yarn workspace @stream-me/api run start",
+		"dev": "yarn workspace @stream-me/api run serve"
+	},
+	"workspaces": [
+		"api",
+		"app"
+	],
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
